@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .add-to-cart {
+    @apply font-semibold bg-green-300 border border-green-300 hover:text-green-300 hover:bg-white py-2 px-4 rounded-md text-white;
+  }
+
+  .product-info {
+    @apply flex justify-between items-center w-full mt-2 p-1;
+  }
+
+  .product {
+    @apply text-[#8685A5] p-0 max-w-sm;
+  }
+
+  .navbar {
+    @apply text-[#55526f] font-semibold text-lg bg-white flex justify-between items-center;
+  }
+
+  .product-section {
+    @apply mt-8 grid grid-cols-1 sm:grid-cols-3 gap-8;
+  }
+
+  .cart-item {
+    @apply grid grid-cols-6 font-semibold justify-center items-center text-center mt-3;
+  }
+
+  .total-section {
+    @apply grid grid-cols-6 font-semibold justify-center items-center text-center mt-3;
+  }
+
+  .operator-btn {
+    @apply bg-green-300 w-8 h-8 m-auto rounded-md text-white font-semibold;
+  }
+
+  .input-group {
+    @apply mt-8 grid grid-cols-5;
+  }
+}

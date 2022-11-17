@@ -715,6 +715,10 @@ video {
   height: 4rem;
 }
 
+.h-\[600px\] {
+  height: 600px;
+}
+
 .w-auto {
   width: auto;
 }
